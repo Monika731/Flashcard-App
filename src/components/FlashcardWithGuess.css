@@ -1,0 +1,47 @@
+.flashcard-with-guess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .guess-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .guess-form input {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+  }
+  
+  .guess-form button {
+    padding: 8px 14px;
+    font-size: 1rem;
+    border: none;
+    background-color: #417ebc;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .feedback {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .feedback.correct {
+    background-color: #4caf50;
+  }
+  
+  .feedback.incorrect {
+    background-color: #f44336;
+  }
