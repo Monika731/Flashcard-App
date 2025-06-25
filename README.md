@@ -4,7 +4,7 @@ Submitted by: **Monika Ravindran**
 
 This web app: **A responsive React web app for flashcards**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
